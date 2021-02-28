@@ -1,0 +1,11 @@
+syntax="proto3";
+
+package person;
+
+option go_package="github.com/tkircsi/proto/person";
+
+message Person {
+  string Name = 1;
+  int32 Age = 2;
+  repeated string Phones = 3;
+}
