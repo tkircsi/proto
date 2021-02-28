@@ -1,4 +1,4 @@
-module github.com/tkircsi/proto/person
+module github.com/tkircsi/proto
 
 go 1.16
 
