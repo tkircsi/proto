@@ -10,4 +10,15 @@ message Person {
   repeated string Phones = 3;
 
   string Email = 4;
+  FavoriteGames FavoriteGame = 5;
+  map<string, int32> Subject = 6;
+}
+
+enum FavoriteGames {
+  UKNOWN = 0;
+  TWO_POINT_HOSPITAL = 1;
+  TEAM_FORTESS = 3;
+  MINECRAFT = 4;
+  ROBLOX = 5;
+  PROGRAMMING = 6;
 }
